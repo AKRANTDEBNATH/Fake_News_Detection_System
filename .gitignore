@@ -23,8 +23,8 @@ eggs/
 *.egg
 
 # Data files (optional, comment out if you want to track)
-data/*.csv
-*.pkl
+#data/*.csv
+#*.pkl
 
 # Logs and temp files
 *.log
