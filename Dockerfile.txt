@@ -5,8 +5,8 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the requirements.txt file and install dependencies
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+COPY Requirements.txt Requirements.txt
+RUN pip install -r Requirements.txt
 
 # Copy the rest of the application files to the container
 COPY . .
